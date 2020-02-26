@@ -1,5 +1,5 @@
 var x = setInterval(function() {
-    var deadline = new Date("Jan 5, 2020 15:37:25").getTime();
+    var deadline = new Date("Jan 5, 2021 15:37:25").getTime();
     var now = new Date().getTime();
     var t = deadline - now;
     var days = Math.floor(t / (1000 * 60 * 60 * 24));
